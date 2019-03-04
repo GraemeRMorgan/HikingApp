@@ -23,7 +23,11 @@ The app also includes entended features, such as:
 
 The app is written in Java using Android Studio for development. Our team integrated Firebase and its realtime database feature in order to access trail information within the cloud. It utilizes the Google Maps API for GPS tracking and utilizes the GPXparser library to load trails from files. 
 
-Both the main project as well as test projects are included in the repository
+Both the main project as well as test projects are included in the repository.
+
+    
+ ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-1.jpg)
+  ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-3.jpg)
 
 ### Following is a list of classes, with simplified functionality documentation
 ---------------------------------------------------------------
@@ -83,6 +87,3 @@ TrailDataActivity
 		Displays information about a trail
 ```
     
-    
- ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-1.jpg)
-  ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-3.jpg)
