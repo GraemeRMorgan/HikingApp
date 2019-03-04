@@ -3,53 +3,33 @@
 ###### Ayla Wickham, Ryley Jewsbury, Caleigh LePage, Graeme Morgan, Reece Milliner
 ###### CPSC499
 
-> ARCtrails is an application for android devices that allows you to locate hiking trails in the
+> ARCtrails was conceived by [@wickhama](https://github.com/wickhama) for CPSC 300 | Software Engineering at UNBC. The project was then exteneded to Agile Development | CPSC 499 and 400. 
+
+ARCtrails is a concept for a social network focussed on sharing hiking trails. It is an application for android devices that allows you to locate, share, and create hiking trails in the
 Prince George area. Upon download, it provides a list of local trails for users to locate and
-walk/hike depending on their eagerness for adventure. This app includes information about the
-trails including the name, and a small description. Upon startup, the app will ask for location
-permissions to allow the user to track their location. This uses GPS signals in reference to the
-trail they have selected and allows the user to view their actual coordinates. This is helpful
-in the case of getting lost, as they can alert others to their exact location. ARCtrails also
-allows the user to create new trails. At the beginning of a new trail, a user may push a “Track”
-button and have their GPS coordinates stored as they traverse the trails. When the user has reached
-the end of the trail they may push a “Stop” button, which allows the user to choose a name and
-write a short description of the trail and save it for other users to enjoy the hike as well.
+walk/hike depending on their eagerness for adventure.
+
+The app includes detailed meta-data about the hiking trails, including: 
+* User uploaded images.
+* Difficulty
+* Length
+* Description of the trail.
+* User notes on the trail, such as 'Bring bugspray!'
+
+The app also includes entended features, such as:
+
+* Flagging innapropriate trails. 
+* Adding points of interest on trails. 
+
+The app is written in Java using Android Studio for development. Our team integrated Firebase and its realtime database feature in order to access trail information within the cloud. It utilizes the Google Maps API for GPS tracking and utilizes the GPXparser library to load trails from files. 
 
 Both the main project as well as test projects are included in the repository
 
-Prototypes & Tests (HikingApp/Tests/):
-
-	* ARC_Trails:
-		Tested asking for location permission
-	* GPX:		
-		Prototype for manually parsing GPX files
-		(Main project uses an external library from AlternativeVision)
-		( http://gpxparser.alternativevision.ro/ )
-	* MapAPI & MapTest:
-		Tests using a map fragment in the same layout as other fragments,
-		and accessing fragments in a layout
-	* MenuTest:
-		Tests creating different kinds of menues and responding to input
-		through callbacks.
-	* StupidGPSThing:
-		Tests displaying GPS position on a map
-	* TrackGPS:
-		Tests displaying GPS position as a text box
-		
-Main Project (HikingApp/Main):
-Due to the large build size, it is a bit hard to find the actual source.
-	Source code can be found in
-		HikingApp/Main/app/src/main/java/arc/com/arctrails - automatic!
-	Layout xml files can be found in
-		HikingApp/Main/app/src/main/res/layout
-
-The main entry point to the app is MenuActivity.java
-Most functionality is handled through callbacks from the Android framework
-
-Following is a list of classes, with simplified functionality documentation
+### Following is a list of classes, with simplified functionality documentation
 ---------------------------------------------------------------
 ****Detailed documentation can be found in the source code.****
 ---------------------------------------------------------------
+```verbatim 
 AlertUtils
 	Increment3:
 		Handles pop-up messages
@@ -100,7 +80,7 @@ NewTrailActivity
 		
 TrailDataActivity
 	Increment2:
-		Displays information about a trail
+		Displays information about a trail```
     
  ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-1.jpg)
   ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-3.jpg)
