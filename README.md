@@ -80,7 +80,9 @@ NewTrailActivity
 		
 TrailDataActivity
 	Increment2:
-		Displays information about a trail```
+		Displays information about a trail
+```
+    
     
  ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-1.jpg)
   ![GitHub Logo](https://github.com/GraemeRMorgan/HikingApp/blob/master/arc-3.jpg)
